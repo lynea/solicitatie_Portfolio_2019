@@ -26,3 +26,18 @@
 
 
     });
+
+    
+document.addEventListener("DOMContentLoaded", function(event) { 
+    var portFilters = document.querySelector('#filters')
+    
+    
+ 
+portFilters.addEventListener('click', function(){
+    var activeCat = document.querySelector('li .active').textContent;
+    var activeFilterText = document.querySelector("#active-filter-text"); 
+    activeFilterText.textContent = activeCat;
+})
+  
+   
+});

@@ -143,3 +143,18 @@ color: #CD7672;
   width: 0;
   height: 0;
 }
+/* 
+
+
+hover try  */
+
+/* Zoom In #2 */
+.hover02 figure img {
+	width: 300px;
+	height: auto;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover02 figure:hover img {
+	width: 350px;
+}
