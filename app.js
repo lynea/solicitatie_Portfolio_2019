@@ -18,8 +18,8 @@ app.get("/projects", function(req, res) {
     res.render('projects')
 });
 
-app.get("/projects/elderly", function(req, res) {
-    res.render('./projects/elderly')
+app.get("/elderly", function(req, res) {
+    res.render('elderly')
 });
 
 

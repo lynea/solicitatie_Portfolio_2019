@@ -41,6 +41,24 @@ color: #CD7672;
     font-weight: bold;
 }
 
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('../img/userTest_Elderly.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.dark-overlay{
+  width: 100%;
+  height:100%; 
+  z-index: 4;
+  background: rgba(0, 0, 0, 0.77);
+
+}
+
+
 .preview-img{
     max-height: 400px;
 }
