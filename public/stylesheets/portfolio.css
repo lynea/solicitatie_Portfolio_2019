@@ -19,6 +19,8 @@
 
 
 
+
+
 .masthead h1, p{
     font-family: Raleway;
     font-style: normal;
@@ -38,16 +40,13 @@
     color: #EEB462;
 }
 
-.navbar a{
-    color: #E0E0E0!important;
- }
 
 
 
  .summary-container{
     background: #FFFFFF;
     box-shadow: 0px 2px 34px rgba(0, 0, 0, 0.25);
-    padding: 20px 0px;
+    padding: 20px 30px!important;
     margin-bottom: 30px; 
     text-align: center; 
 
@@ -73,12 +72,17 @@
      margin-top: 50px;
      background: #FFFFFF;
      box-shadow: 0px 2px 34px rgba(0, 0, 0, 0.25);
-     padding: 20px 0px;
+     padding: 20px 30px !important;
  }
 
  .tools{
     font-size: 20px;
 }
+
+
+.tools h1 {
+margin-left: 40px; 
+} 
 
 .timeline a{
     font-size: 25px!important;
@@ -101,18 +105,48 @@
     margin-top:0;
 }
 
+.darkOrangeContainer{
+    background-color: #CD7672;
+    margin-top:0;
+}
+
+.blueContainer{
+    background-color: #138086;
+    margin-top:0;
+}
+
+.whiteContainer{
+    margin-top:0;
+}
+
 .yellow{
     color:#EEB462;
 }
 .purple{
-    color:#534666;   
+    color:#534666!important;   
 }
 .dark-orange{
     color:#CD7672;
 }
 
+.light-orange{
+    color:#DC8665;
+}
+
+.grey a {
+    color:#E0E0E0 !important;
+}
+
+.dark-orange .navbar-brand{
+    color:#CD7672!important;
+}
+
+.dark-orange a{
+    color:black!important;
+}
+.dark
 .black{
-    color: black;
+    color: black!important;
 }
 
 .white{
