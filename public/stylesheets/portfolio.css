@@ -1,10 +1,10 @@
-.lightOrangeText a{
+.lightOrangeText a, .lightOrangeText{
     color: #DC8665!important;
 }
 .purpleText a{
     color: #534666!important;
 }
-.darkOrangeText a{
+.darkOrangeText, .darkOrangeText a{
     color: #CD7672!important;
 }
 
@@ -12,7 +12,7 @@
     color: #138086!important;
 }
 
-.yellowText a{
+.yellowText a, .yellowText{
     
         color:#EEB462!important;
 }
@@ -52,6 +52,10 @@
 
  }
 
+ .project-info-container{
+     margin-top:150px;
+ }
+
  .project-info-container h1{
    color: #534666;
    font-family: Raleway;
@@ -88,11 +92,14 @@ margin-left: 40px;
     font-size: 25px!important;
 }
 
- .tools i{
+ .text-center i{
      font-size: 60px;
      color: #534666;
      margin-bottom: 10px;
  }
+
+ 
+
 
  .LightorangeContainer{
      background-color: #DC8665;
@@ -115,8 +122,13 @@ margin-left: 40px;
     margin-top:0;
 }
 
-.whiteContainer{
+.white-container{
     margin-top:0;
+    padding-top: 130px!important;
+}
+
+.active-menu-item a{
+    font-weight: bold!important;
 }
 
 .yellow{

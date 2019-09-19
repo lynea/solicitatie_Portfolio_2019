@@ -4,6 +4,22 @@ body {
     font-family: Raleway;
   }
 
+  .bold-word{
+    font-weight: bold; 
+    color: #CD7672;
+    font-size: 20px;
+  }
+
+ .about-me{
+   margin-top: 370px;
+ }
+
+  .header-container{
+ 
+    margin-top: 200px!important;
+    margin-bottom:260px!important;
+  }
+
   .ml-auto a{
     font-size: 25px;
   }
@@ -24,9 +40,10 @@ margin-left: 15px
 font-family: Raleway;
 font-style: italic;
 font-weight: bold;
-font-size: 70px;
+font-size: 90px;
 line-height: 82px;
 color: #CD7672; 
+margin-top: 40px;
   }
 
   .bigPurpleText{
@@ -318,20 +335,24 @@ background-size: contain;
 background-repeat: no-repeat; 
 }
 
-.scroll-active{
+.scroll-active {
   font-size: 50px!important;
   font-weight: bold; 
   color: #CD7672!important; 
 }
 
+.brand-regular{
+  font-size:40px!important;
+  font-weight: normal; 
+}
 .navbar-brand{
   margin-left:30px!important;
+ 
  
 }
 
 .navbar{
-  padding-right:
-    50px!important;
+  padding-right:50px!important;
   }
 
 

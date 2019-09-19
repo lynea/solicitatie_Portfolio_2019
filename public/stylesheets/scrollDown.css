@@ -71,7 +71,7 @@ section::after {
   background-color: #CD7672;
   border-radius: 100%;
   -webkit-animation: sdb10 2s infinite;
-  animation: sdb10 2s infinite;
+  animation: sdb10 3s infinite;
   box-sizing: border-box;
 }
 @-webkit-keyframes sdb10 {
@@ -83,7 +83,7 @@ section::after {
     opacity: 1;
   }
   80% {
-    -webkit-transform: translate(0, 20px);
+    -webkit-transform: translate(0, 50px);
     opacity: 0;
   }
   100% {
@@ -99,7 +99,7 @@ section::after {
     opacity: 1;
   }
   80% {
-    transform: translate(0, 20px);
+    transform: translate(0, 50px);
     opacity: 0;
   }
   100% {
