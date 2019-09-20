@@ -27,6 +27,12 @@
     font-weight: bold!important;
 }
 
+
+.port-summary  {
+    font-weight: normal!important; 
+
+}
+
 .masthead h1{
     font-size: 133px;
     line-height: 156px;
