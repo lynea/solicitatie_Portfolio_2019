@@ -7,6 +7,11 @@
         max-width: 850px!important;
 }
 
+#filters {
+
+    margin-left: 15%;
+
+}
 
 
 #section10 a span{
@@ -18,13 +23,10 @@
     width: 48%;
 }
 
-#filters{
-    padding-left:15%;
-}
 
 .demo a {
     position: absolute; 
-    bottom: 300px;
+  
 }
 .port-summary{
     font-size: 35px;
@@ -36,6 +38,22 @@
 font-family: raleway!important;
   }
 
+  body p, .bold-word, .text-muted{
+      font-size: 35px;
+  }
+
+  body h1, .timeline-title{
+      font-size: 50px;
+  }
+
+  .preview_Header{
+            font-size: 75px!important;
+  }
+
+  body h3{
+      font-size: 40px; 
+      font-weight: bold;
+  }
 
   ul.timeline:before {
     left: 40px;
