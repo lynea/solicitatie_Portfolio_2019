@@ -1,9 +1,11 @@
-body {
+body, body a {
   
     
   font-family: 'Raleway', sans-serif !important;
 
   }
+
+ 
 
   .bold-word{
     font-weight: bold; 

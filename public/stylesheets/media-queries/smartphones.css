@@ -1,3 +1,14 @@
+body, body a, h1 , h2, p, h4, h3 {
+  
+    
+    font-family: 'Raleway', sans-serif !important;
+  
+    }
+
+    #section10{
+        display: none;
+      }
+
 #header-image{
     margin-top: 80px;
 }
@@ -13,6 +24,13 @@
 
 }
 
+.masthead {
+   
+   
+    background-size: cover;
+    background-position: left;
+  
+}
 
 #section10 a span{
     height:120px; 
@@ -23,7 +41,9 @@
     width: 48%;
 }
 
-
+.t-d-b{
+    margin-top: 30px!important;
+}
 .demo a {
     position: absolute; 
   
@@ -101,7 +121,7 @@
     margin-top: 20px;
   text-decoration: none;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 50px;
   position:relative;
   top:0;
   left:0;
