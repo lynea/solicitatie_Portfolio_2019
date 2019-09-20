@@ -293,6 +293,7 @@ margin-top: 40px;
 @media (max-width: 767px) {
   ul.timeline:before {
     left: 40px;
+   
   }
   
   ul.timeline > li > .timeline-panel {
@@ -333,6 +334,7 @@ margin-top: 90px;
 background-image: url("../img/userTest_Elderly.jpg"); 
 background-size: contain;
 background-repeat: no-repeat; 
+min-height: 400px
 }
 
 .scroll-active {
