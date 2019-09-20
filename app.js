@@ -2,7 +2,7 @@ var express = require("express"),
     app =express()
     ; 
 
-const port = 3000
+const port = 3000;
 
 app.use(express.static(__dirname + "/public"));
 app.set('view engine', 'ejs'); 
@@ -26,4 +26,4 @@ app.get("/elderly", function(req, res) {
 
 // app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 
-app.listen(process.env.PORT, process.env.IP)
+app.listen(process.env.PORT, process.env.IP);
