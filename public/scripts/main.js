@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   ScrollReveal().reveal('.header-img', { delay: 600,  origin: 'right', scale: 0.85, duration: 1000 });
 
   // portfolio animations
-  ScrollReveal().reveal('.portfolio-image-big', { interval: 700, origin: 'right', scale: 0.85, duration: 900 });
+  // ScrollReveal().reveal('.portfolio-image-big', { interval: 700, origin: 'right', scale: 0.85, duration: 900 });
   ScrollReveal().reveal('.project-preview-img', {  interval: 700, origin: 'right', scale: 0.85, duration: 900 });
   ScrollReveal().reveal('.huge-img', { delay: 400 ,opacity: 0, duration: 1000 });
   ScrollReveal().reveal('.summary-container', {  origin: 'right', scale: 0.85, duration: 900  });
